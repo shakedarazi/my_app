@@ -16,12 +16,11 @@
     "prettier": "^3.7.4"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": "^5.9.3"
   },
   "workspaces": [
     "packages/*"
   ],
-
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "prettier --write"
